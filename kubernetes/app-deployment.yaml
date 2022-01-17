@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: wikimedia
-          image: siva30/wikimedia:v1
+          image: mrabinesh/wiki:1
           ports:
             - containerPort: 80
               name: httpd-port
